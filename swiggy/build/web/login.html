@@ -1,0 +1,71 @@
+<html>
+<head>
+  <title>Swiggy Clone</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1><a href="index.html"><span class="logo_colour">Swiggy Clone</span></a></h1>
+          <h2>Online Food Ordering Platform</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="signup.html">SignUp</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+         <h5>Hungry</h5>
+        <h4>Think</h4><h1>Swiggy</h1>
+        <h1>Follow Us:</h1>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Youtube</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+        <h1>Search Location</h1>
+        <form method="post" action="#" id="search_form">
+          <p>
+            <input class="search" type="text" name="search_field" value="search" />
+            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
+          </p>
+        </form>
+      </div>
+      <div id="content">
+	<form action="LogInServlet" method="get">
+	<table align="center" >
+	<tr><td class="inp">USERNAME</td></tr>
+	<tr><td><input class="abc" type="text" name="user" placeholder="eg.abc123" required></td>
+	</tr>
+	<tr>
+	<tr><td class="inp">PASSWORD</td></tr>
+	<tr><td><input class="abc" type="password" name="pwsd" required placeholder="*********"></td>
+	</tr></br>
+	<tr><td><input type="submit" value="LOGIN"></td></tr>
+	<tr></tr>
+	</table>
+	</form>
+	</div>
+	<br>
+	 <a>FORGOT PASSWORD?</a>
+         <br>
+<a href="signup.html">CREATE NEW ACCOUNT?</a> <br>
+	
+	</div>
+    </div>
+    <div id="footer">
+      <p>Copyright &copy; <a href="#">Swiggy Clone</a></p>
+    </div>
+  </div>
+</body>
+</html>
